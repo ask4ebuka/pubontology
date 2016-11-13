@@ -286,6 +286,14 @@
     
 
 
+    <!-- http://www.videogame.com/game#GameBoy -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#GameBoy">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Handheld"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.videogame.com/game#Genre -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#Genre"/>
@@ -339,6 +347,14 @@
     <!-- http://www.videogame.com/game#Platform -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#Platform"/>
+    
+
+
+    <!-- http://www.videogame.com/game#PlayStation -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#PlayStation">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Home"/>
+    </owl:Class>
     
 
 
@@ -416,6 +432,14 @@
     
 
 
+    <!-- http://www.videogame.com/game#Xbox -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Xbox">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Home"/>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -424,6 +448,22 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.videogame.com/game#BeatEmUp -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#BeatEmUp">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Fighting -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Fighting">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Genre"/>
+    </owl:NamedIndividual>
     
 
 
@@ -443,10 +483,40 @@
     
 
 
+    <!-- http://www.videogame.com/game#Multiplayer -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Multiplayer">
+        <rdf:type rdf:resource="http://www.videogame.com/game#PlayerMode"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#PlayStation -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#PlayStation">
-        <rdf:type rdf:resource="http://www.videogame.com/game#Home"/>
+        <rdf:type rdf:resource="http://www.videogame.com/game#PlayStation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#PlayStationOne -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#PlayStationOne"/>
+    
+
+
+    <!-- http://www.videogame.com/game#RolePlaying -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#RolePlaying">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#SinglePlayer -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#SinglePlayer">
+        <rdf:type rdf:resource="http://www.videogame.com/game#PlayerMode"/>
     </owl:NamedIndividual>
     
 
