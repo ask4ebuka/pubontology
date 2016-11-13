@@ -236,6 +236,14 @@
     
 
 
+    <!-- http://www.videogame.com/game#Console -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Console">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Platform"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.videogame.com/game#Designer -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#Designer">
@@ -281,6 +289,30 @@
     <!-- http://www.videogame.com/game#Genre -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#Genre"/>
+    
+
+
+    <!-- http://www.videogame.com/game#Handheld -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Handheld">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Console"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.videogame.com/game#Home -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Home">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Console"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.videogame.com/game#Hybrid -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Hybrid">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Console"/>
+    </owl:Class>
     
 
 
@@ -368,11 +400,86 @@
     
 
 
+    <!-- http://www.videogame.com/game#Web -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Web">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Platform"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.videogame.com/game#Writer -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#Writer">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Person"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.videogame.com/game#HTML5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#HTML5">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Web"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#KillZone -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#KillZone">
+        <rdf:type rdf:resource="http://www.videogame.com/game#VideoGame"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#PlayStation -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#PlayStation">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Home"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Unity -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Unity">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Engine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#UnrealEngine -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#UnrealEngine">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Engine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#WiiU -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#WiiU">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Home"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#XboxOne -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#XboxOne">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Home"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
