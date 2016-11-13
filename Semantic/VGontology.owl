@@ -290,6 +290,14 @@
     
 
 
+    <!-- http://www.videogame.com/game#PC -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#PC">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Platform"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.videogame.com/game#Person -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#Person"/>
