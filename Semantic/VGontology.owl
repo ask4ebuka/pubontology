@@ -262,9 +262,7 @@
 
     <!-- http://www.videogame.com/game#Developer -->
 
-    <owl:Class rdf:about="http://www.videogame.com/game#Developer">
-        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Person"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.videogame.com/game#Developer"/>
     
 
 
@@ -679,6 +677,35 @@
     
 
 
+    <!-- http://www.videogame.com/game#LeagueOfLegends -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#LeagueOfLegends">
+        <rdf:type rdf:resource="http://www.videogame.com/game#VideoGame"/>
+        <HasDeveloper rdf:resource="http://www.videogame.com/game#RiotGames"/>
+        <HasDirector rdf:resource="http://www.videogame.com/game#TomCadwell"/>
+        <HasProducer rdf:resource="http://www.videogame.com/game#StevenSnow"/>
+        <HasProducer rdf:resource="http://www.videogame.com/game#TravisGeorge"/>
+        <HasPublisher rdf:resource="http://www.videogame.com/game#RiotGames"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Linux -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Linux">
+        <rdf:type rdf:resource="http://www.videogame.com/game#PC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#MacOS -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#MacOS">
+        <rdf:type rdf:resource="http://www.videogame.com/game#PC"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#Multiplayer -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Multiplayer">
@@ -691,6 +718,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#NA">
         <rdf:type rdf:resource="http://www.videogame.com/game#Location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#OSX -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#OSX">
+        <rdf:type rdf:resource="http://www.videogame.com/game#PC"/>
     </owl:NamedIndividual>
     
 
@@ -743,10 +778,35 @@
     
 
 
+    <!-- http://www.videogame.com/game#PlayStationPortable -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#PlayStationPortable">
+        <rdf:type rdf:resource="http://www.videogame.com/game#PlayStation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#PlayStationVita -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#PlayStationVita">
+        <rdf:type rdf:resource="http://www.videogame.com/game#PlayStation"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#Racing -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Racing">
         <rdf:type rdf:resource="http://www.videogame.com/game#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#RiotGames -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#RiotGames">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Developer"/>
+        <rdf:type rdf:resource="http://www.videogame.com/game#Publisher"/>
     </owl:NamedIndividual>
     
 
@@ -783,6 +843,30 @@
     
 
 
+    <!-- http://www.videogame.com/game#StevenSnow -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#StevenSnow">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Producer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#TomCadwell -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#TomCadwell">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#TravisGeorge -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#TravisGeorge">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Producer"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#Unity -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Unity">
@@ -811,6 +895,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#WiiU">
         <rdf:type rdf:resource="http://www.videogame.com/game#Home"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Windows -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Windows">
+        <rdf:type rdf:resource="http://www.videogame.com/game#PC"/>
     </owl:NamedIndividual>
     
 
