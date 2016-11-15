@@ -813,6 +813,15 @@
     
 
 
+    <!-- http://www.videogame.com/game#MathijsDeJonge -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#MathijsDeJonge">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Designer"/>
+        <rdf:type rdf:resource="http://www.videogame.com/game#Director"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#Multiplayer -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Multiplayer">
@@ -937,6 +946,14 @@
     <!-- http://www.videogame.com/game#RolePlaying -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#RolePlaying">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#ShootEmUp -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#ShootEmUp">
         <rdf:type rdf:resource="http://www.videogame.com/game#Genre"/>
     </owl:NamedIndividual>
     
@@ -1082,6 +1099,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#27/10/2009">
         <rdf:type rdf:resource="http://www.videogame.com/game#WW"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Killzone:Liberation -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Killzone:Liberation">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Killzone"/>
+        <HasDesigner rdf:resource="http://www.videogame.com/game#MathijsDeJonge"/>
+        <HasDeveloper rdf:resource="http://www.videogame.com/game#GuerrillaGames"/>
+        <HasDirector rdf:resource="http://www.videogame.com/game#MathijsDeJonge"/>
+        <HasGenre rdf:resource="http://www.videogame.com/game#ShootEmUp"/>
+        <HasPlatform rdf:resource="http://www.videogame.com/game#PlayStationPortable"/>
+        <HasPlayerMode rdf:resource="http://www.videogame.com/game#Multiplayer"/>
+        <HasPlayerMode rdf:resource="http://www.videogame.com/game#SinglePlayer"/>
+        <HasPublisher rdf:resource="http://www.videogame.com/game#SonyComputerEntertainment"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
