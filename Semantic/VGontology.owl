@@ -737,6 +737,14 @@
     
 
 
+    <!-- http://www.videogame.com/game#Havok -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Havok">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Engine"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#JorisDeMan -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#JorisDeMan">
@@ -755,6 +763,24 @@
         <HasDeveloper rdf:resource="http://www.videogame.com/game#SupermassiveGames"/>
         <HasGenre rdf:resource="http://www.videogame.com/game#FirstPersonShooter"/>
         <HasPlatform rdf:resource="http://www.videogame.com/game#PlayStation2"/>
+        <HasPlatform rdf:resource="http://www.videogame.com/game#PlayStation3"/>
+        <HasPlayerMode rdf:resource="http://www.videogame.com/game#Multiplayer"/>
+        <HasPlayerMode rdf:resource="http://www.videogame.com/game#SinglePlayer"/>
+        <HasPublisher rdf:resource="http://www.videogame.com/game#SonyComputerEntertainment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Killzone2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Killzone2">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Killzone"/>
+        <HasComposer rdf:resource="http://www.videogame.com/game#JorisDeMan"/>
+        <HasDesigner rdf:resource="http://www.videogame.com/game#NeilAlphonso"/>
+        <HasDeveloper rdf:resource="http://www.videogame.com/game#GuerrillaGames"/>
+        <HasDirector rdf:resource="http://www.videogame.com/game#MathijsDeJonge"/>
+        <HasEngine rdf:resource="http://www.videogame.com/game#Havok"/>
+        <HasGenre rdf:resource="http://www.videogame.com/game#FirstPersonShooter"/>
         <HasPlatform rdf:resource="http://www.videogame.com/game#PlayStation3"/>
         <HasPlayerMode rdf:resource="http://www.videogame.com/game#Multiplayer"/>
         <HasPlayerMode rdf:resource="http://www.videogame.com/game#SinglePlayer"/>
@@ -834,6 +860,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#MultiplayerOnlineBattleArena">
         <rdf:type rdf:resource="http://www.videogame.com/game#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#NeilAlphonso -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#NeilAlphonso">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Designer"/>
     </owl:NamedIndividual>
     
 
