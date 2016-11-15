@@ -402,9 +402,25 @@
     
 
 
+    <!-- http://www.videogame.com/game#Killzone -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Killzone">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#VideoGame"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.videogame.com/game#Language -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#Language"/>
+    
+
+
+    <!-- http://www.videogame.com/game#MortalKombat -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#MortalKombat">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#VideoGame"/>
+    </owl:Class>
     
 
 
@@ -633,6 +649,14 @@
     
 
 
+    <!-- http://www.videogame.com/game#FirstPersonShooter -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#FirstPersonShooter">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#GameBoyAdvance -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#GameBoyAdvance">
@@ -697,6 +721,14 @@
     
 
 
+    <!-- http://www.videogame.com/game#GuerrillaGames -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#GuerrillaGames">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Developer"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#HTML5 -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#HTML5">
@@ -705,10 +737,28 @@
     
 
 
-    <!-- http://www.videogame.com/game#KillZone -->
+    <!-- http://www.videogame.com/game#JorisDeMan -->
 
-    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#KillZone">
-        <rdf:type rdf:resource="http://www.videogame.com/game#VideoGame"/>
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#JorisDeMan">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Composer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Killzone -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Killzone">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Killzone"/>
+        <HasComposer rdf:resource="http://www.videogame.com/game#JorisDeMan"/>
+        <HasDesigner rdf:resource="http://www.videogame.com/game#MartinCapel"/>
+        <HasDeveloper rdf:resource="http://www.videogame.com/game#GuerrillaGames"/>
+        <HasDeveloper rdf:resource="http://www.videogame.com/game#SupermassiveGames"/>
+        <HasGenre rdf:resource="http://www.videogame.com/game#FirstPersonShooter"/>
+        <HasPlatform rdf:resource="http://www.videogame.com/game#PlayStation2"/>
+        <HasPlatform rdf:resource="http://www.videogame.com/game#PlayStation3"/>
+        <HasPlayerMode rdf:resource="http://www.videogame.com/game#Multiplayer"/>
+        <HasPlayerMode rdf:resource="http://www.videogame.com/game#SinglePlayer"/>
+        <HasPublisher rdf:resource="http://www.videogame.com/game#SonyComputerEntertainment"/>
     </owl:NamedIndividual>
     
 
@@ -751,6 +801,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#MacOS">
         <rdf:type rdf:resource="http://www.videogame.com/game#PC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#MartinCapel -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#MartinCapel">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Designer"/>
     </owl:NamedIndividual>
     
 
@@ -892,6 +950,14 @@
     
 
 
+    <!-- http://www.videogame.com/game#SonyComputerEntertainment -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#SonyComputerEntertainment">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Publisher"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#Sports -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Sports">
@@ -920,6 +986,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#StevenSnow">
         <rdf:type rdf:resource="http://www.videogame.com/game#Producer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#SupermassiveGames -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#SupermassiveGames">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Developer"/>
     </owl:NamedIndividual>
     
 
@@ -1007,7 +1081,7 @@
     <!-- http://www.videogame.com/game#27/10/2009 -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#27/10/2009">
-        <rdf:type rdf:resource="http://www.videogame.com/game#Release"/>
+        <rdf:type rdf:resource="http://www.videogame.com/game#WW"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
