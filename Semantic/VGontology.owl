@@ -161,6 +161,16 @@
     
 
 
+    <!-- http://www.videogame.com/game#HasReleaseDate -->
+
+    <owl:ObjectProperty rdf:about="http://www.videogame.com/game#HasReleaseDate">
+        <rdfs:domain rdf:resource="http://www.videogame.com/game#Console"/>
+        <rdfs:domain rdf:resource="http://www.videogame.com/game#VideoGame"/>
+        <rdfs:range rdf:resource="http://www.videogame.com/game#Release"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.videogame.com/game#HasScriptLanguage -->
 
     <owl:ObjectProperty rdf:about="http://www.videogame.com/game#HasScriptLanguage">
@@ -730,6 +740,7 @@
         <HasProducer rdf:resource="http://www.videogame.com/game#StevenSnow"/>
         <HasProducer rdf:resource="http://www.videogame.com/game#TravisGeorge"/>
         <HasPublisher rdf:resource="http://www.videogame.com/game#RiotGames"/>
+        <HasReleaseDate rdf:resource="http://www.videogame.com/game#27/10/2009"/>
         <HasWriter rdf:resource="http://www.videogame.com/game#GeorgeKrstic"/>
     </owl:NamedIndividual>
     
@@ -996,6 +1007,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#XboxOne">
         <rdf:type rdf:resource="http://www.videogame.com/game#Home"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#27/10/2009 -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#27/10/2009">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Release"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
