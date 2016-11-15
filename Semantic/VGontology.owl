@@ -98,6 +98,15 @@
     
 
 
+    <!-- http://www.videogame.com/game#HasGenre -->
+
+    <owl:ObjectProperty rdf:about="http://www.videogame.com/game#HasGenre">
+        <rdfs:domain rdf:resource="http://www.videogame.com/game#VideoGame"/>
+        <rdfs:range rdf:resource="http://www.videogame.com/game#Genre"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.videogame.com/game#HasPlatform -->
 
     <owl:ObjectProperty rdf:about="http://www.videogame.com/game#HasPlatform">
@@ -683,6 +692,10 @@
         <rdf:type rdf:resource="http://www.videogame.com/game#VideoGame"/>
         <HasDeveloper rdf:resource="http://www.videogame.com/game#RiotGames"/>
         <HasDirector rdf:resource="http://www.videogame.com/game#TomCadwell"/>
+        <HasGenre rdf:resource="http://www.videogame.com/game#MultiplayerOnlineBattleArena"/>
+        <HasPlatform rdf:resource="http://www.videogame.com/game#OSX"/>
+        <HasPlatform rdf:resource="http://www.videogame.com/game#Windows"/>
+        <HasPlayerMode rdf:resource="http://www.videogame.com/game#Multiplayer"/>
         <HasProducer rdf:resource="http://www.videogame.com/game#StevenSnow"/>
         <HasProducer rdf:resource="http://www.videogame.com/game#TravisGeorge"/>
         <HasPublisher rdf:resource="http://www.videogame.com/game#RiotGames"/>
@@ -710,6 +723,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Multiplayer">
         <rdf:type rdf:resource="http://www.videogame.com/game#PlayerMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#MultiplayerOnlineBattleArena -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#MultiplayerOnlineBattleArena">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Genre"/>
     </owl:NamedIndividual>
     
 
