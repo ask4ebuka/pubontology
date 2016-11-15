@@ -244,6 +244,14 @@
     
 
 
+    <!-- http://www.videogame.com/game#Date -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Date">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Release"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.videogame.com/game#Designer -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#Designer">
@@ -280,9 +288,41 @@
     
 
 
+    <!-- http://www.videogame.com/game#Eighth -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Eighth">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Generation"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.videogame.com/game#Engine -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#Engine"/>
+    
+
+
+    <!-- http://www.videogame.com/game#Fifth -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Fifth">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Generation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.videogame.com/game#First -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#First">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Generation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.videogame.com/game#Fourth -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Fourth">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Generation"/>
+    </owl:Class>
     
 
 
@@ -291,6 +331,20 @@
     <owl:Class rdf:about="http://www.videogame.com/game#GameBoy">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Handheld"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.videogame.com/game#GameBoyAdvance -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#GameBoyAdvance">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Handheld"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.videogame.com/game#Generation -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Generation"/>
     
 
 
@@ -327,6 +381,14 @@
     <!-- http://www.videogame.com/game#Language -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#Language"/>
+    
+
+
+    <!-- http://www.videogame.com/game#Location -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Location">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Release"/>
+    </owl:Class>
     
 
 
@@ -395,6 +457,12 @@
     
 
 
+    <!-- http://www.videogame.com/game#Release -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Release"/>
+    
+
+
     <!-- http://www.videogame.com/game#ScriptLanguage -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#ScriptLanguage">
@@ -404,9 +472,41 @@
     
 
 
+    <!-- http://www.videogame.com/game#Second -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Second">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Generation"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.videogame.com/game#Series -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#Series"/>
+    
+
+
+    <!-- http://www.videogame.com/game#Seventh -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Seventh">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Generation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.videogame.com/game#Sixth -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Sixth">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Generation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.videogame.com/game#Third -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Third">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Generation"/>
+    </owl:Class>
     
 
 
@@ -451,10 +551,42 @@
     
 
 
+    <!-- http://www.videogame.com/game#AUS -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#AUS">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Action -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Action">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Action-Adventure -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Action-Adventure">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#BeatEmUp -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#BeatEmUp">
         <rdf:type rdf:resource="http://www.videogame.com/game#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#EU -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#EU">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Location"/>
     </owl:NamedIndividual>
     
 
@@ -467,10 +599,74 @@
     
 
 
+    <!-- http://www.videogame.com/game#GameBoyAdvance -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#GameBoyAdvance">
+        <rdf:type rdf:resource="http://www.videogame.com/game#GameBoyAdvance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#GameBoyAdvancedSP -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#GameBoyAdvancedSP">
+        <rdf:type rdf:resource="http://www.videogame.com/game#GameBoyAdvance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#GameBoyColor -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#GameBoyColor">
+        <rdf:type rdf:resource="http://www.videogame.com/game#GameBoy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#GameBoyLight -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#GameBoyLight">
+        <rdf:type rdf:resource="http://www.videogame.com/game#GameBoy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#GameBoyMicro -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#GameBoyMicro">
+        <rdf:type rdf:resource="http://www.videogame.com/game#GameBoyAdvance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#GameBoyPocket -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#GameBoyPocket">
+        <rdf:type rdf:resource="http://www.videogame.com/game#GameBoy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Gameboy -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Gameboy">
+        <rdf:type rdf:resource="http://www.videogame.com/game#GameBoy"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#HTML5 -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#HTML5">
         <rdf:type rdf:resource="http://www.videogame.com/game#Web"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#JP -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#JP">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Location"/>
     </owl:NamedIndividual>
     
 
@@ -491,6 +687,22 @@
     
 
 
+    <!-- http://www.videogame.com/game#NA -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#NA">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#PSX -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#PSX">
+        <rdf:type rdf:resource="http://www.videogame.com/game#PlayStation"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#PlayStation -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#PlayStation">
@@ -499,9 +711,43 @@
     
 
 
+    <!-- http://www.videogame.com/game#PlayStation2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#PlayStation2">
+        <rdf:type rdf:resource="http://www.videogame.com/game#PlayStation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#PlayStation3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#PlayStation3">
+        <rdf:type rdf:resource="http://www.videogame.com/game#PlayStation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#PlayStation4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#PlayStation4">
+        <rdf:type rdf:resource="http://www.videogame.com/game#PlayStation"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#PlayStationOne -->
 
-    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#PlayStationOne"/>
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#PlayStationOne">
+        <rdf:type rdf:resource="http://www.videogame.com/game#PlayStation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Racing -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Racing">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Genre"/>
+    </owl:NamedIndividual>
     
 
 
@@ -517,6 +763,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#SinglePlayer">
         <rdf:type rdf:resource="http://www.videogame.com/game#PlayerMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Sports -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Sports">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Stealth -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Stealth">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Genre"/>
     </owl:NamedIndividual>
     
 
@@ -537,10 +799,34 @@
     
 
 
+    <!-- http://www.videogame.com/game#WW -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#WW">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Location"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#WiiU -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#WiiU">
         <rdf:type rdf:resource="http://www.videogame.com/game#Home"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Xbox -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Xbox">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Xbox"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Xbox360 -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Xbox360">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Xbox"/>
     </owl:NamedIndividual>
     
 
