@@ -229,6 +229,14 @@
     
 
 
+    <!-- http://www.videogame.com/game#AUS -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#AUS">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Release"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.videogame.com/game#Artist -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#Artist">
@@ -249,14 +257,6 @@
 
     <owl:Class rdf:about="http://www.videogame.com/game#Console">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Platform"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.videogame.com/game#Date -->
-
-    <owl:Class rdf:about="http://www.videogame.com/game#Date">
-        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Release"/>
     </owl:Class>
     
 
@@ -385,9 +385,25 @@
     
 
 
+    <!-- http://www.videogame.com/game#JP -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#JP">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Release"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.videogame.com/game#Language -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#Language"/>
+    
+
+
+    <!-- http://www.videogame.com/game#NA -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#NA">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Release"/>
+    </owl:Class>
     
 
 
@@ -512,6 +528,14 @@
     <!-- http://www.videogame.com/game#VideoGame -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#VideoGame"/>
+    
+
+
+    <!-- http://www.videogame.com/game#WW -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#WW">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Release"/>
+    </owl:Class>
     
 
 
@@ -740,12 +764,6 @@
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#MultiplayerOnlineBattleArena">
         <rdf:type rdf:resource="http://www.videogame.com/game#Genre"/>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.videogame.com/game#NA -->
-
-    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#NA"/>
     
 
 
