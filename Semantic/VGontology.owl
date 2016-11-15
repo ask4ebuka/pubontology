@@ -391,14 +391,6 @@
     
 
 
-    <!-- http://www.videogame.com/game#Location -->
-
-    <owl:Class rdf:about="http://www.videogame.com/game#Location">
-        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Release"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.videogame.com/game#PC -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#PC">
@@ -558,14 +550,6 @@
     
 
 
-    <!-- http://www.videogame.com/game#AUS -->
-
-    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#AUS">
-        <rdf:type rdf:resource="http://www.videogame.com/game#Location"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.videogame.com/game#Action -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Action">
@@ -602,14 +586,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#ChristinaNorman">
         <rdf:type rdf:resource="http://www.videogame.com/game#Designer"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.videogame.com/game#EU -->
-
-    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#EU">
-        <rdf:type rdf:resource="http://www.videogame.com/game#Location"/>
     </owl:NamedIndividual>
     
 
@@ -702,14 +678,6 @@
     
 
 
-    <!-- http://www.videogame.com/game#JP -->
-
-    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#JP">
-        <rdf:type rdf:resource="http://www.videogame.com/game#Location"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.videogame.com/game#KillZone -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#KillZone">
@@ -777,9 +745,7 @@
 
     <!-- http://www.videogame.com/game#NA -->
 
-    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#NA">
-        <rdf:type rdf:resource="http://www.videogame.com/game#Location"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#NA"/>
     
 
 
@@ -972,14 +938,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#UnrealEngine">
         <rdf:type rdf:resource="http://www.videogame.com/game#Engine"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.videogame.com/game#WW -->
-
-    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#WW">
-        <rdf:type rdf:resource="http://www.videogame.com/game#Location"/>
     </owl:NamedIndividual>
     
 
