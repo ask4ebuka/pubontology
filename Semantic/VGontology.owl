@@ -609,6 +609,14 @@
     
 
 
+    <!-- http://www.videogame.com/game#ActionRole-Playing -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#ActionRole-Playing">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#BeatEmUp -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#BeatEmUp">
@@ -761,6 +769,42 @@
     
 
 
+    <!-- http://www.videogame.com/game#HorizonZeroDawn -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#HorizonZeroDawn">
+        <rdf:type rdf:resource="http://www.videogame.com/game#VideoGame"/>
+        <HasArtist rdf:resource="http://www.videogame.com/game#Jan-BartVanBeek"/>
+        <HasComposer rdf:resource="http://www.videogame.com/game#JorisDeMan"/>
+        <HasComposer rdf:resource="http://www.videogame.com/game#NielsVanDerLeest"/>
+        <HasComposer rdf:resource="http://www.videogame.com/game#TheFlight"/>
+        <HasDeveloper rdf:resource="http://www.videogame.com/game#GuerrillaGames"/>
+        <HasDirector rdf:resource="http://www.videogame.com/game#MathijsDeJonge"/>
+        <HasGenre rdf:resource="http://www.videogame.com/game#ActionRole-Playing"/>
+        <HasPlatform rdf:resource="http://www.videogame.com/game#PlayStation4"/>
+        <HasPlayerMode rdf:resource="http://www.videogame.com/game#SinglePlayer"/>
+        <HasProducer rdf:resource="http://www.videogame.com/game#MarkNorris"/>
+        <HasPublisher rdf:resource="http://www.videogame.com/game#SonyComputerEntertainment"/>
+        <HasWriter rdf:resource="http://www.videogame.com/game#JohnGonzalez"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Jan-BartVanBeek -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Jan-BartVanBeek">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Artist"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#JohnGonzalez -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#JohnGonzalez">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Writer"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#JorisDeMan -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#JorisDeMan">
@@ -889,6 +933,14 @@
     
 
 
+    <!-- http://www.videogame.com/game#MarkNorris -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#MarkNorris">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Producer"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#MartinCapel -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#MartinCapel">
@@ -926,6 +978,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#NeilAlphonso">
         <rdf:type rdf:resource="http://www.videogame.com/game#Designer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#NielsVanDerLeest -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#NielsVanDerLeest">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Composer"/>
     </owl:NamedIndividual>
     
 
@@ -1111,6 +1171,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#SupermassiveGames">
         <rdf:type rdf:resource="http://www.videogame.com/game#Developer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#TheFlight -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#TheFlight">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Composer"/>
     </owl:NamedIndividual>
     
 
