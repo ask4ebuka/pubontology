@@ -590,10 +590,34 @@
     
 
 
+    <!-- http://www.videogame.com/game#ChristianLinke -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#ChristianLinke">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Composer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#ChristinaNorman -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#ChristinaNorman">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Designer"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#EU -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#EU">
         <rdf:type rdf:resource="http://www.videogame.com/game#Location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#EdmundoSanchez -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#EdmundoSanchez">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Artist"/>
     </owl:NamedIndividual>
     
 
@@ -662,6 +686,14 @@
     
 
 
+    <!-- http://www.videogame.com/game#GeorgeKrstic -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#GeorgeKrstic">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Writer"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#HTML5 -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#HTML5">
@@ -690,6 +722,13 @@
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#LeagueOfLegends">
         <rdf:type rdf:resource="http://www.videogame.com/game#VideoGame"/>
+        <HasArtist rdf:resource="http://www.videogame.com/game#EdmundoSanchez"/>
+        <HasArtist rdf:resource="http://www.videogame.com/game#PaulKwon"/>
+        <HasArtist rdf:resource="http://www.videogame.com/game#TroyAdam"/>
+        <HasComposer rdf:resource="http://www.videogame.com/game#ChristianLinke"/>
+        <HasDesigner rdf:resource="http://www.videogame.com/game#ChristinaNorman"/>
+        <HasDesigner rdf:resource="http://www.videogame.com/game#RobGarrett"/>
+        <HasDesigner rdf:resource="http://www.videogame.com/game#SteveFeak"/>
         <HasDeveloper rdf:resource="http://www.videogame.com/game#RiotGames"/>
         <HasDirector rdf:resource="http://www.videogame.com/game#TomCadwell"/>
         <HasGenre rdf:resource="http://www.videogame.com/game#MultiplayerOnlineBattleArena"/>
@@ -699,6 +738,7 @@
         <HasProducer rdf:resource="http://www.videogame.com/game#StevenSnow"/>
         <HasProducer rdf:resource="http://www.videogame.com/game#TravisGeorge"/>
         <HasPublisher rdf:resource="http://www.videogame.com/game#RiotGames"/>
+        <HasWriter rdf:resource="http://www.videogame.com/game#GeorgeKrstic"/>
     </owl:NamedIndividual>
     
 
@@ -755,6 +795,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#PSX">
         <rdf:type rdf:resource="http://www.videogame.com/game#PlayStation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#PaulKwon -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#PaulKwon">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Artist"/>
     </owl:NamedIndividual>
     
 
@@ -832,6 +880,14 @@
     
 
 
+    <!-- http://www.videogame.com/game#RobGarrett -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#RobGarrett">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Designer"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#RolePlaying -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#RolePlaying">
@@ -864,6 +920,14 @@
     
 
 
+    <!-- http://www.videogame.com/game#SteveFeak -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#SteveFeak">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Designer"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#StevenSnow -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#StevenSnow">
@@ -884,6 +948,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#TravisGeorge">
         <rdf:type rdf:resource="http://www.videogame.com/game#Producer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#TroyAdam -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#TroyAdam">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Artist"/>
     </owl:NamedIndividual>
     
 
