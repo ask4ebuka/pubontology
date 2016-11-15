@@ -221,7 +221,6 @@
         <rdfs:domain rdf:resource="http://www.videogame.com/game#Platform"/>
         <rdfs:domain rdf:resource="http://www.videogame.com/game#PlayerMode"/>
         <rdfs:domain rdf:resource="http://www.videogame.com/game#Publisher"/>
-        <rdfs:domain rdf:resource="http://www.videogame.com/game#Series"/>
         <rdfs:domain rdf:resource="http://www.videogame.com/game#VideoGame"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
@@ -502,12 +501,6 @@
     <owl:Class rdf:about="http://www.videogame.com/game#Second">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Generation"/>
     </owl:Class>
-    
-
-
-    <!-- http://www.videogame.com/game#Series -->
-
-    <owl:Class rdf:about="http://www.videogame.com/game#Series"/>
     
 
 
