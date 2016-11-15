@@ -641,6 +641,14 @@
     
 
 
+    <!-- http://www.videogame.com/game#EricBoltjes -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#EricBoltjes">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Designer"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#Fighting -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Fighting">
@@ -721,6 +729,14 @@
     
 
 
+    <!-- http://www.videogame.com/game#GuerrillaCambridge -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#GuerrillaCambridge">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Developer"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#GuerrillaGames -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#GuerrillaGames">
@@ -789,6 +805,40 @@
     
 
 
+    <!-- http://www.videogame.com/game#Killzone3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Killzone3">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Killzone"/>
+        <HasComposer rdf:resource="http://www.videogame.com/game#JorisDeMan"/>
+        <HasDeveloper rdf:resource="http://www.videogame.com/game#GuerrillaGames"/>
+        <HasDirector rdf:resource="http://www.videogame.com/game#MathijsDeJonge"/>
+        <HasGenre rdf:resource="http://www.videogame.com/game#FirstPersonShooter"/>
+        <HasPlatform rdf:resource="http://www.videogame.com/game#PlayStation3"/>
+        <HasPlayerMode rdf:resource="http://www.videogame.com/game#Multiplayer"/>
+        <HasPlayerMode rdf:resource="http://www.videogame.com/game#SinglePlayer"/>
+        <HasPublisher rdf:resource="http://www.videogame.com/game#SonyComputerEntertainment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#KillzoneShadowFall -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#KillzoneShadowFall">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Killzone"/>
+        <HasComposer rdf:resource="http://www.videogame.com/game#Lorn"/>
+        <HasComposer rdf:resource="http://www.videogame.com/game#TylerBates"/>
+        <HasDesigner rdf:resource="http://www.videogame.com/game#EricBoltjes"/>
+        <HasDeveloper rdf:resource="http://www.videogame.com/game#GuerrillaGames"/>
+        <HasDirector rdf:resource="http://www.videogame.com/game#StevenTerHeide"/>
+        <HasGenre rdf:resource="http://www.videogame.com/game#FirstPersonShooter"/>
+        <HasPlatform rdf:resource="http://www.videogame.com/game#PlayStation4"/>
+        <HasPlayerMode rdf:resource="http://www.videogame.com/game#Multiplayer"/>
+        <HasPlayerMode rdf:resource="http://www.videogame.com/game#SinglePlayer"/>
+        <HasPublisher rdf:resource="http://www.videogame.com/game#SonyComputerEntertainment"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#LeagueOfLegends -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#LeagueOfLegends">
@@ -819,6 +869,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Linux">
         <rdf:type rdf:resource="http://www.videogame.com/game#PC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Lorn -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Lorn">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Composer"/>
     </owl:NamedIndividual>
     
 
@@ -1041,6 +1099,14 @@
     
 
 
+    <!-- http://www.videogame.com/game#StevenTerHeide -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#StevenTerHeide">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Director"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#SupermassiveGames -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#SupermassiveGames">
@@ -1073,6 +1139,14 @@
     
 
 
+    <!-- http://www.videogame.com/game#TylerBates -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#TylerBates">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Composer"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#Unity -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Unity">
@@ -1085,6 +1159,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#UnrealEngine">
         <rdf:type rdf:resource="http://www.videogame.com/game#Engine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#WalterChristianMair -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#WalterChristianMair">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Composer"/>
     </owl:NamedIndividual>
     
 
@@ -1148,6 +1230,20 @@
         <HasPlatform rdf:resource="http://www.videogame.com/game#PlayStationPortable"/>
         <HasPlayerMode rdf:resource="http://www.videogame.com/game#Multiplayer"/>
         <HasPlayerMode rdf:resource="http://www.videogame.com/game#SinglePlayer"/>
+        <HasPublisher rdf:resource="http://www.videogame.com/game#SonyComputerEntertainment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Killzone:Mercenary -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Killzone:Mercenary">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Killzone"/>
+        <HasComposer rdf:resource="http://www.videogame.com/game#WalterChristianMair"/>
+        <HasDeveloper rdf:resource="http://www.videogame.com/game#GuerrillaCambridge"/>
+        <HasGenre rdf:resource="http://www.videogame.com/game#FirstPersonShooter"/>
+        <HasPlatform rdf:resource="http://www.videogame.com/game#PlayStationVita"/>
+        <HasPlayerMode rdf:resource="http://www.videogame.com/game#Multiplayer"/>
         <HasPublisher rdf:resource="http://www.videogame.com/game#SonyComputerEntertainment"/>
     </owl:NamedIndividual>
 </rdf:RDF>
