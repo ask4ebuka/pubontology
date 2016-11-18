@@ -280,7 +280,9 @@
 
     <!-- http://www.videogame.com/game#Developer -->
 
-    <owl:Class rdf:about="http://www.videogame.com/game#Developer"/>
+    <owl:Class rdf:about="http://www.videogame.com/game#Developer">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Firm"/>
+    </owl:Class>
     
 
 
@@ -300,7 +302,9 @@
 
     <!-- http://www.videogame.com/game#Distributor -->
 
-    <owl:Class rdf:about="http://www.videogame.com/game#Distributor"/>
+    <owl:Class rdf:about="http://www.videogame.com/game#Distributor">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Firm"/>
+    </owl:Class>
     
 
 
@@ -323,6 +327,12 @@
     <owl:Class rdf:about="http://www.videogame.com/game#Fifth">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Generation"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.videogame.com/game#Firm -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Firm"/>
     
 
 
@@ -493,7 +503,9 @@
 
     <!-- http://www.videogame.com/game#Publisher -->
 
-    <owl:Class rdf:about="http://www.videogame.com/game#Publisher"/>
+    <owl:Class rdf:about="http://www.videogame.com/game#Publisher">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Firm"/>
+    </owl:Class>
     
 
 
