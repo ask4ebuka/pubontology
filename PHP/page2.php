@@ -1,17 +1,15 @@
 
 <html>
-<head>
-</head>
+
 <body>
 <?php
-include 'page1.php';
 require_once( "sparqllib.php" );
  
-$db = sparql_connect( "http://localhost:8171" );
+$db = sparql_connect( "http://localhost:3030" );
 if( !$db ) { print $db->errno() . ": " . $db->error(). "\n"; exit; }
-$db->ns( "VG","http://www.videogame.com/game#" );
+$db->ns( "one","http://localhost:3030/dataset.html?tab=query&ds=/one" );
  
-$sparql = "SELECT ?subject ?object WHERE { ?subject rdfs:subClassOf ?object  } LIMIT 5";
+$sparql = "SELECT ?subject ?predicate ?object WHERE { ?subject ?predicate ?object  } LIMIT 5";
 $result = $db->query( $sparql ); 
 if( !$result ) { print $db->errno() . ": " . $db->error(). "\n"; exit; }
  
