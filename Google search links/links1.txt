@@ -15,3 +15,18 @@ semantic application jena protege RDF schema implementation java "ontology desig
 
 https://www.google.co.uk/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=semantic%20java%20application%20pdf
 semantic java application pdf
+
+https://www.google.co.uk/search?q=search+algorithm+for+ontology+search+engine&oq=search+algorithm+for+ontology+search+engine+&aqs=chrome..69i57.23040j0j7&sourceid=chrome&es_sm=93&ie=UTF-8
+search algorithm for ontology search engine
+
+https://www.google.co.uk/search?q=semantic+application+jena+filetype%3Apdf&oq=semantic+application+jena+filetype%3Apdf&aqs=chrome..69i57j69i65.20836j0j7&sourceid=chrome&es_sm=93&ie=UTF-8
+semantic application jena filetype:pdf
+
+https://www.google.co.uk/search?q=semantic+application+jena+filetype%3Apdf&oq=semantic+application+jena+filetype%3Apdf&aqs=chrome..69i57j69i65.20836j0j7&sourceid=chrome&es_sm=93&ie=UTF-8#safe=off&q=semantic+application+%22jena+is+a+java+framework%22+for+filetype:pdf
+semantic application "jena is a java framework" for filetype:pdf
+
+https://www.google.co.uk/search?q=semantic+application+jena+filetype%3Apdf&oq=semantic+application+jena+filetype%3Apdf&aqs=chrome..69i57j69i65.20836j0j7&sourceid=chrome&es_sm=93&ie=UTF-8#safe=off&q=semantic+application+jena+fuseki+for+filetype:pdf
+semantic application jena fuseki for filetype:pdf
+
+https://www.google.co.uk/search?q=semantic+application+jena+filetype%3Apdf&oq=semantic+application+jena+filetype%3Apdf&aqs=chrome..69i57j69i65.20836j0j7&sourceid=chrome&es_sm=93&ie=UTF-8#safe=off&q=semantic+application+sparqllib.php+for+filetype:pdf
+semantic application sparqllib.php for filetype:pdf
