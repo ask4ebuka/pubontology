@@ -66,7 +66,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.videogame.com/game#HasDimension">
         <rdfs:domain rdf:resource="http://www.videogame.com/game#Engine"/>
-        <rdfs:range rdf:resource="http://www.videogame.com/game#Dimension"/>
     </owl:ObjectProperty>
     
 
@@ -209,10 +208,15 @@
     
 
 
+    <!-- http://www.videogame.com/game#dimension -->
+
+    <owl:DatatypeProperty rdf:about="http://www.videogame.com/game#dimension"/>
+    
+
+
     <!-- http://www.videogame.com/game#name -->
 
     <owl:DatatypeProperty rdf:about="http://www.videogame.com/game#name">
-        <rdfs:domain rdf:resource="http://www.videogame.com/game#Dimension"/>
         <rdfs:domain rdf:resource="http://www.videogame.com/game#Distributor"/>
         <rdfs:domain rdf:resource="http://www.videogame.com/game#Engine"/>
         <rdfs:domain rdf:resource="http://www.videogame.com/game#Genre"/>
@@ -301,12 +305,6 @@
     <owl:Class rdf:about="http://www.videogame.com/game#Developer">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Firm"/>
     </owl:Class>
-    
-
-
-    <!-- http://www.videogame.com/game#Dimension -->
-
-    <owl:Class rdf:about="http://www.videogame.com/game#Dimension"/>
     
 
 
