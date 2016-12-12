@@ -247,6 +247,7 @@
     <owl:Class rdf:about="http://webprotege.stanford.edu/R7JrWQ60NrIGgXv6qHjGp26">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:label>Series</rdfs:label>
+        <rdfs:label xml:lang="fr">Séries</rdfs:label>
     </owl:Class>
     
 
@@ -256,6 +257,7 @@
     <owl:Class rdf:about="http://webprotege.stanford.edu/R9JftuT5YG6ezUjInY6GB2L">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:label>Family</rdfs:label>
+        <rdfs:label xml:lang="fr">La Famille</rdfs:label>
     </owl:Class>
     
 
@@ -273,6 +275,7 @@
     <owl:Class rdf:about="http://www.videogame.com/game#Artist">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Person"/>
         <rdfs:label xml:lang="en">Artist</rdfs:label>
+        <rdfs:label xml:lang="fr">Artiste</rdfs:label>
     </owl:Class>
     
 
@@ -282,6 +285,7 @@
     <owl:Class rdf:about="http://www.videogame.com/game#Composer">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Person"/>
         <rdfs:label xml:lang="en">Composer</rdfs:label>
+        <rdfs:label xml:lang="fr">Compositeur</rdfs:label>
     </owl:Class>
     
 
@@ -309,6 +313,7 @@
     <owl:Class rdf:about="http://www.videogame.com/game#Developer">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Firm"/>
         <rdfs:label xml:lang="en">Developer</rdfs:label>
+        <rdfs:label xml:lang="fr">Développeur</rdfs:label>
     </owl:Class>
     
 
@@ -318,6 +323,7 @@
     <owl:Class rdf:about="http://www.videogame.com/game#Director">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Person"/>
         <rdfs:label xml:lang="en">Director</rdfs:label>
+        <rdfs:label xml:lang="fr">Le Directeur</rdfs:label>
     </owl:Class>
     
 
@@ -326,6 +332,7 @@
 
     <owl:Class rdf:about="http://www.videogame.com/game#Distributor">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Firm"/>
+        <rdfs:label xml:lang="fr">Distributeur</rdfs:label>
         <rdfs:label xml:lang="en">Distributor</rdfs:label>
     </owl:Class>
     
@@ -336,6 +343,7 @@
     <owl:Class rdf:about="http://www.videogame.com/game#Eighth">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Generation"/>
         <rdfs:label xml:lang="en">Eighth</rdfs:label>
+        <rdfs:label xml:lang="fr">Huitième</rdfs:label>
     </owl:Class>
     
 
@@ -344,6 +352,7 @@
 
     <owl:Class rdf:about="http://www.videogame.com/game#Engine">
         <rdfs:label xml:lang="en">Engine</rdfs:label>
+        <rdfs:label xml:lang="fr">Moteur</rdfs:label>
     </owl:Class>
     
 
@@ -352,6 +361,7 @@
 
     <owl:Class rdf:about="http://www.videogame.com/game#Fifth">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Generation"/>
+        <rdfs:label xml:lang="fr">Cinquième</rdfs:label>
         <rdfs:label xml:lang="en">Fifth</rdfs:label>
     </owl:Class>
     
@@ -361,6 +371,7 @@
 
     <owl:Class rdf:about="http://www.videogame.com/game#Firm">
         <rdfs:label xml:lang="en">Firm</rdfs:label>
+        <rdfs:label xml:lang="fr">La Firme</rdfs:label>
     </owl:Class>
     
 
@@ -370,6 +381,7 @@
     <owl:Class rdf:about="http://www.videogame.com/game#First">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Generation"/>
         <rdfs:label xml:lang="en">First</rdfs:label>
+        <rdfs:label xml:lang="fr">Premier</rdfs:label>
     </owl:Class>
     
 
@@ -379,6 +391,7 @@
     <owl:Class rdf:about="http://www.videogame.com/game#Fourth">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Generation"/>
         <rdfs:label xml:lang="en">Fourth</rdfs:label>
+        <rdfs:label xml:lang="fr">Quatrième</rdfs:label>
     </owl:Class>
     
 
@@ -396,6 +409,7 @@
 
     <owl:Class rdf:about="http://www.videogame.com/game#Generation">
         <rdfs:label xml:lang="en">Generation</rdfs:label>
+        <rdfs:label xml:lang="fr">Génération</rdfs:label>
     </owl:Class>
     
 
@@ -413,6 +427,7 @@
     <owl:Class rdf:about="http://www.videogame.com/game#Handheld">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Console"/>
         <rdfs:label xml:lang="en">Handheld</rdfs:label>
+        <rdfs:label xml:lang="fr">Ordinateur de poche</rdfs:label>
     </owl:Class>
     
 
@@ -421,6 +436,7 @@
 
     <owl:Class rdf:about="http://www.videogame.com/game#Home">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Console"/>
+        <rdfs:label xml:lang="fr">Accueil</rdfs:label>
         <rdfs:label xml:lang="en">Home</rdfs:label>
     </owl:Class>
     
@@ -431,6 +447,7 @@
     <owl:Class rdf:about="http://www.videogame.com/game#Hybrid">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Console"/>
         <rdfs:label xml:lang="en">Hybrid</rdfs:label>
+        <rdfs:label xml:lang="fr">Hybride</rdfs:label>
     </owl:Class>
     
 
@@ -454,6 +471,7 @@
     <!-- http://www.videogame.com/game#Language -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#Language">
+        <rdfs:label xml:lang="fr">La langue</rdfs:label>
         <rdfs:label xml:lang="en">Language</rdfs:label>
     </owl:Class>
     
@@ -489,6 +507,7 @@
 
     <owl:Class rdf:about="http://www.videogame.com/game#Person">
         <rdfs:label xml:lang="en">Person</rdfs:label>
+        <rdfs:label xml:lang="fr">Personne</rdfs:label>
     </owl:Class>
     
 
@@ -496,6 +515,7 @@
     <!-- http://www.videogame.com/game#Platform -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#Platform">
+        <rdfs:label xml:lang="fr">Plate-forme</rdfs:label>
         <rdfs:label xml:lang="en">Platform</rdfs:label>
     </owl:Class>
     
@@ -512,6 +532,7 @@
     <!-- http://www.videogame.com/game#PlayerMode -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#PlayerMode">
+        <rdfs:label xml:lang="fr">Mode Joueur</rdfs:label>
         <rdfs:label xml:lang="en">Player Mode</rdfs:label>
     </owl:Class>
     
@@ -522,6 +543,7 @@
     <owl:Class rdf:about="http://www.videogame.com/game#Producer">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Person"/>
         <rdfs:label xml:lang="en">Producer</rdfs:label>
+        <rdfs:label xml:lang="fr">Producteur</rdfs:label>
     </owl:Class>
     
 
@@ -531,6 +553,7 @@
     <owl:Class rdf:about="http://www.videogame.com/game#Programmer">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Person"/>
         <rdfs:label xml:lang="en">Programmer</rdfs:label>
+        <rdfs:label xml:lang="fr">Programmeur</rdfs:label>
     </owl:Class>
     
 
@@ -539,6 +562,7 @@
 
     <owl:Class rdf:about="http://www.videogame.com/game#ProgrammingLanguage">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Language"/>
+        <rdfs:label xml:lang="fr">Langage de Programmation</rdfs:label>
         <rdfs:label xml:lang="en">Programming Language</rdfs:label>
     </owl:Class>
     
@@ -549,6 +573,7 @@
     <owl:Class rdf:about="http://www.videogame.com/game#Publisher">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Firm"/>
         <rdfs:label xml:lang="en">Publisher</rdfs:label>
+        <rdfs:label xml:lang="fr">Éditeur</rdfs:label>
     </owl:Class>
     
 
@@ -563,6 +588,7 @@
 
     <owl:Class rdf:about="http://www.videogame.com/game#ScriptLanguage">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Language"/>
+        <rdfs:label xml:lang="fr">Langue du Script</rdfs:label>
         <rdfs:label xml:lang="en">Script Language</rdfs:label>
     </owl:Class>
     
@@ -572,6 +598,7 @@
 
     <owl:Class rdf:about="http://www.videogame.com/game#Second">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Generation"/>
+        <rdfs:label xml:lang="fr">Deuxième</rdfs:label>
         <rdfs:label xml:lang="en">Second</rdfs:label>
     </owl:Class>
     
@@ -581,6 +608,7 @@
 
     <owl:Class rdf:about="http://www.videogame.com/game#Seventh">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Generation"/>
+        <rdfs:label xml:lang="fr">Septième</rdfs:label>
         <rdfs:label xml:lang="en">Seventh</rdfs:label>
     </owl:Class>
     
@@ -590,6 +618,7 @@
 
     <owl:Class rdf:about="http://www.videogame.com/game#Sixth">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Generation"/>
+        <rdfs:label xml:lang="fr">Sixième</rdfs:label>
         <rdfs:label xml:lang="en">Sixth</rdfs:label>
     </owl:Class>
     
@@ -600,6 +629,7 @@
     <owl:Class rdf:about="http://www.videogame.com/game#Third">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Generation"/>
         <rdfs:label xml:lang="en">Third</rdfs:label>
+        <rdfs:label xml:lang="fr">Troisième</rdfs:label>
     </owl:Class>
     
 
@@ -607,6 +637,7 @@
     <!-- http://www.videogame.com/game#VideoGame -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#VideoGame">
+        <rdfs:label xml:lang="fr">Jeu vidéo</rdfs:label>
         <rdfs:label xml:lang="en">Video Game</rdfs:label>
     </owl:Class>
     
@@ -634,6 +665,7 @@
     <owl:Class rdf:about="http://www.videogame.com/game#Writer">
         <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Person"/>
         <rdfs:label xml:lang="en">Writer</rdfs:label>
+        <rdfs:label xml:lang="fr">Écrivain</rdfs:label>
     </owl:Class>
     
 
