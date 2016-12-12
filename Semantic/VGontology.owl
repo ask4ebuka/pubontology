@@ -191,6 +191,15 @@
     
 
 
+    <!-- http://www.videogame.com/game#HQ -->
+
+    <owl:DatatypeProperty rdf:about="http://www.videogame.com/game#HQ">
+        <rdfs:domain rdf:resource="http://www.videogame.com/game#Developer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.videogame.com/game#crossPlatform -->
 
     <owl:DatatypeProperty rdf:about="http://www.videogame.com/game#crossPlatform">
@@ -200,9 +209,38 @@
     
 
 
+    <!-- http://www.videogame.com/game#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.videogame.com/game#description">
+        <rdfs:domain rdf:resource="http://www.videogame.com/game#VideoGame"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.videogame.com/game#dimension -->
 
-    <owl:DatatypeProperty rdf:about="http://www.videogame.com/game#dimension"/>
+    <owl:DatatypeProperty rdf:about="http://www.videogame.com/game#dimension">
+        <rdfs:domain rdf:resource="http://www.videogame.com/game#Engine"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.videogame.com/game#founded -->
+
+    <owl:DatatypeProperty rdf:about="http://www.videogame.com/game#founded">
+        <rdfs:domain rdf:resource="http://www.videogame.com/game#Developer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.videogame.com/game#industry -->
+
+    <owl:DatatypeProperty rdf:about="http://www.videogame.com/game#industry">
+        <rdfs:domain rdf:resource="http://www.videogame.com/game#Developer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -219,6 +257,30 @@
         <rdfs:domain rdf:resource="http://www.videogame.com/game#Publisher"/>
         <rdfs:domain rdf:resource="http://www.videogame.com/game#VideoGame"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.videogame.com/game#releaseDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.videogame.com/game#releaseDate"/>
+    
+
+
+    <!-- http://www.videogame.com/game#type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.videogame.com/game#type">
+        <rdfs:domain rdf:resource="http://www.videogame.com/game#Developer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.videogame.com/game#website -->
+
+    <owl:DatatypeProperty rdf:about="http://www.videogame.com/game#website">
+        <rdfs:domain rdf:resource="http://www.videogame.com/game#Developer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
 
@@ -674,7 +736,6 @@
 
     <owl:Class rdf:about="http://www.videogame.com/game#Naruto:UltimateNinja">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7JrWQ60NrIGgXv6qHjGp26"/>
-        <rdfs:label xml:lang="en">Naruto: Ultimate Ninja</rdfs:label>
     </owl:Class>
     
 
@@ -741,11 +802,37 @@
     
 
 
+    <!-- http://www.videogame.com/game#BandaiNamcoEntertainment -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#BandaiNamcoEntertainment">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Publisher"/>
+        <HQ>Shinagawa, Tokyo, Japan</HQ>
+        <founded>January 2014</founded>
+        <industry>Anime</industry>
+        <industry>Motion pictures</industry>
+        <industry>Video game industry</industry>
+        <type>Kabushiki gaisha</type>
+        <type>Subsidiary</type>
+        <website>http://www.bandainamcoent.co.jp</website>
+        <rdfs:label xml:lang="en">Bandai Namco Entertainment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.videogame.com/game#BeatEmUp -->
 
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#BeatEmUp">
         <rdf:type rdf:resource="http://www.videogame.com/game#Genre"/>
         <name xml:lang="en">Beat &apos;em up</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#ChikayoFukuda -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#ChikayoFukuda">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Composer"/>
+        <name>Chikayo Fukuda</name>
     </owl:NamedIndividual>
     
 
@@ -764,6 +851,20 @@
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#ChristinaNorman">
         <rdf:type rdf:resource="http://www.videogame.com/game#Designer"/>
         <name xml:lang="en">Christina Norman</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#CyberConnect2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#CyberConnect2">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Developer"/>
+        <HQ rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Fukuoka, Japan</HQ>
+        <founded rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">1996-02-16</founded>
+        <industry rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Video gaming</industry>
+        <type xml:lang="en">Kabushiki gaisha</type>
+        <website rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">http://www.cyberconnect2.jp</website>
+        <rdfs:label xml:lang="en">CyberConnect2</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -915,6 +1016,16 @@
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Havok">
         <rdf:type rdf:resource="http://www.videogame.com/game#Engine"/>
         <name xml:lang="en">Havok</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#HiroshiMatsuyama -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#HiroshiMatsuyama">
+        <rdf:type rdf:resource="http://www.videogame.com/game#Director"/>
+        <name>Hiroshi Matsuyama</name>
+        <rdfs:label xml:lang="en">Hiroshi Matsuyama</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1274,7 +1385,13 @@
     <owl:NamedIndividual rdf:about="http://www.videogame.com/game#RiotGames">
         <rdf:type rdf:resource="http://www.videogame.com/game#Developer"/>
         <rdf:type rdf:resource="http://www.videogame.com/game#Publisher"/>
+        <HQ rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Los Angeles, Califonia, United States</HQ>
+        <founded rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2006</founded>
+        <industry rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Interactive entertainment</industry>
         <name xml:lang="en">Riot Games</name>
+        <type rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Subsidiary</type>
+        <website rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">http://www.riotgames.com</website>
+        <rdfs:label xml:lang="en">Riot Games</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1543,6 +1660,72 @@
     
 
 
+    <!-- http://www.videogame.com/game#Naruto:UltimateNinja -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Naruto:UltimateNinja">
+        <rdf:type rdf:resource="http://www.videogame.com/game#VideoGame"/>
+        <rdf:type rdf:resource="http://www.videogame.com/game#Naruto:UltimateNinjaSeries"/>
+        <HasComposer rdf:resource="http://www.videogame.com/game#ChikayoFukuda"/>
+        <HasDeveloper rdf:resource="http://www.videogame.com/game#CyberConnect2"/>
+        <HasGenre rdf:resource="http://www.videogame.com/game#Fighting"/>
+        <HasPlatform rdf:resource="http://www.videogame.com/game#PlayStation2"/>
+        <HasPublisher rdf:resource="http://www.videogame.com/game#BandaiNamcoEntertainment"/>
+        <releaseDate>June 2006</releaseDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Naruto:UltimateNinja2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Naruto:UltimateNinja2">
+        <rdf:type rdf:resource="http://www.videogame.com/game#VideoGame"/>
+        <rdf:type rdf:resource="http://www.videogame.com/game#Naruto:UltimateNinjaSeries"/>
+        <HasComposer rdf:resource="http://www.videogame.com/game#ChikayoFukuda"/>
+        <HasDeveloper rdf:resource="http://www.videogame.com/game#CyberConnect2"/>
+        <HasDirector rdf:resource="http://www.videogame.com/game#HiroshiMatsuyama"/>
+        <HasGenre rdf:resource="http://www.videogame.com/game#Fighting"/>
+        <HasPlatform rdf:resource="http://www.videogame.com/game#PlayStation2"/>
+        <HasPublisher rdf:resource="http://www.videogame.com/game#BandaiNamcoEntertainment"/>
+        <releaseDate>October 2007</releaseDate>
+        <rdfs:label xml:lang="en">Naruto: Ultimate Ninja 2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#Naruto:UltimateNinja3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#Naruto:UltimateNinja3">
+        <rdf:type rdf:resource="http://www.videogame.com/game#VideoGame"/>
+        <rdf:type rdf:resource="http://www.videogame.com/game#Naruto:UltimateNinjaSeries"/>
+        <HasComposer rdf:resource="http://www.videogame.com/game#ChikayoFukuda"/>
+        <HasDeveloper rdf:resource="http://www.videogame.com/game#CyberConnect2"/>
+        <HasPlatform rdf:resource="http://www.videogame.com/game#PlayStation2"/>
+        <HasPublisher rdf:resource="http://www.videogame.com/game#BandaiNamcoEntertainment"/>
+        <rdfs:label xml:lang="en">Naruto: Ultimate Ninja 3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#NarutoShippuden:UltimateNinja4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#NarutoShippuden:UltimateNinja4">
+        <rdf:type rdf:resource="http://www.videogame.com/game#VideoGame"/>
+        <rdf:type rdf:resource="http://www.videogame.com/game#Naruto:UltimateNinjaSeries"/>
+        <rdfs:label xml:lang="en">Naruto Shippuden: Ultimate Ninja 4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.videogame.com/game#NarutoShippuden:UltimateNinja5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#NarutoShippuden:UltimateNinja5">
+        <rdf:type rdf:resource="http://www.videogame.com/game#VideoGame"/>
+        <rdf:type rdf:resource="http://www.videogame.com/game#Naruto:UltimateNinjaSeries"/>
+        <rdfs:label xml:lang="en">Naruto Shippuden: Ultimate Ninja 5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1559,6 +1742,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.videogame.com/game#Xbox">
         <rdfs:label xml:lang="en">Xbox</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.videogame.com/game#Naruto:UltimateNinja">
+        <rdfs:label xml:lang="en">Naruto: Ultimate Ninja</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 
