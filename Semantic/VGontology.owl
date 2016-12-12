@@ -678,6 +678,42 @@
     
 
 
+    <!-- http://www.videogame.com/game#Naruto:UltimateNinja -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Naruto:UltimateNinja">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7JrWQ60NrIGgXv6qHjGp26"/>
+        <rdfs:label xml:lang="en">Naruto: Ultimate Ninja</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.videogame.com/game#Naruto:UltimateNinjaHeroes -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Naruto:UltimateNinjaHeroes">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Naruto:UltimateNinja"/>
+        <rdfs:label xml:lang="en">Naruto: Ultimate Ninja Heroes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.videogame.com/game#Naruto:UltimateNinjaSeries -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Naruto:UltimateNinjaSeries">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Naruto:UltimateNinja"/>
+        <rdfs:label xml:lang="en">Naruto: Ultimate Ninja Series</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.videogame.com/game#Naruto:UltimateNinjaStorm -->
+
+    <owl:Class rdf:about="http://www.videogame.com/game#Naruto:UltimateNinjaStorm">
+        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Naruto:UltimateNinja"/>
+        <rdfs:label xml:lang="en">Naruto: Ultimate Ninja Storm</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
