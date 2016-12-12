@@ -62,14 +62,6 @@
     
 
 
-    <!-- http://www.videogame.com/game#HasDimension -->
-
-    <owl:ObjectProperty rdf:about="http://www.videogame.com/game#HasDimension">
-        <rdfs:domain rdf:resource="http://www.videogame.com/game#Engine"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.videogame.com/game#HasDirector -->
 
     <owl:ObjectProperty rdf:about="http://www.videogame.com/game#HasDirector">
@@ -1073,7 +1065,6 @@
         <HasProducer rdf:resource="http://www.videogame.com/game#StevenSnow"/>
         <HasProducer rdf:resource="http://www.videogame.com/game#TravisGeorge"/>
         <HasPublisher rdf:resource="http://www.videogame.com/game#RiotGames"/>
-        <HasReleaseDate rdf:resource="http://www.videogame.com/game#27/10/2009"/>
         <HasWriter rdf:resource="http://www.videogame.com/game#GeorgeKrstic"/>
         <name xml:lang="en">League Of Legends</name>
     </owl:NamedIndividual>
@@ -1514,14 +1505,6 @@
         <rdf:type rdf:resource="http://www.videogame.com/game#Eighth"/>
         <rdf:type rdf:resource="http://www.videogame.com/game#Home"/>
         <name xml:lang="en">Xbox One</name>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.videogame.com/game#27/10/2009 -->
-
-    <owl:NamedIndividual rdf:about="http://www.videogame.com/game#27/10/2009">
-        <rdf:type rdf:resource="http://www.videogame.com/game#WW"/>
     </owl:NamedIndividual>
     
 
