@@ -157,7 +157,6 @@
     <owl:ObjectProperty rdf:about="http://www.videogame.com/game#HasReleaseDate">
         <rdfs:domain rdf:resource="http://www.videogame.com/game#Console"/>
         <rdfs:domain rdf:resource="http://www.videogame.com/game#VideoGame"/>
-        <rdfs:range rdf:resource="http://www.videogame.com/game#Release"/>
     </owl:ObjectProperty>
     
 
@@ -312,14 +311,6 @@
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:label>Family</rdfs:label>
         <rdfs:label xml:lang="fr">La Famille</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.videogame.com/game#AUS -->
-
-    <owl:Class rdf:about="http://www.videogame.com/game#AUS">
-        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Release"/>
     </owl:Class>
     
 
@@ -506,14 +497,6 @@
     
 
 
-    <!-- http://www.videogame.com/game#JP -->
-
-    <owl:Class rdf:about="http://www.videogame.com/game#JP">
-        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Release"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.videogame.com/game#Killzone -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#Killzone">
@@ -536,14 +519,6 @@
     <owl:Class rdf:about="http://www.videogame.com/game#MortalKombat">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7JrWQ60NrIGgXv6qHjGp26"/>
         <rdfs:label xml:lang="en">Mortal Kombat</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.videogame.com/game#NA -->
-
-    <owl:Class rdf:about="http://www.videogame.com/game#NA">
-        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Release"/>
     </owl:Class>
     
 
@@ -632,12 +607,6 @@
     
 
 
-    <!-- http://www.videogame.com/game#Release -->
-
-    <owl:Class rdf:about="http://www.videogame.com/game#Release"/>
-    
-
-
     <!-- http://www.videogame.com/game#ScriptLanguage -->
 
     <owl:Class rdf:about="http://www.videogame.com/game#ScriptLanguage">
@@ -693,14 +662,6 @@
     <owl:Class rdf:about="http://www.videogame.com/game#VideoGame">
         <rdfs:label xml:lang="fr">Jeu vidéo</rdfs:label>
         <rdfs:label xml:lang="en">Video Game</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.videogame.com/game#WW -->
-
-    <owl:Class rdf:about="http://www.videogame.com/game#WW">
-        <rdfs:subClassOf rdf:resource="http://www.videogame.com/game#Release"/>
     </owl:Class>
     
 
